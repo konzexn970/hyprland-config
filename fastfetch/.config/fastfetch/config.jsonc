@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "sixel",
+    "source": "~/.config/fastfetch/anime.png",
+    "width": 28,
+    "height": 14,
+    "padding": { "top": 1, "left": 2, "right": 3 }
+  },
+  "display": { "separator": "  " },
+  "modules": [
+    "title", "separator",
+    "os", "host", "kernel", "uptime", "packages", "shell",
+    "wm", "terminal", "cpu", "gpu", "memory", "disk",
+    "break", "colors"
+  ]
+}

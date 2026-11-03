@@ -1,0 +1,7 @@
+bibata-cursor-theme
+localsend
+qt5ct-kde
+qt6ct-kde
+ttf-ms-fonts
+waterfox-bin
+yay-bin
