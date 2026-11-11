@@ -49,7 +49,9 @@ pacman-contrib
 pipewire
 pipewire-pulse
 playerctl
+qalculate-gtk
 qbittorrent
+quickshell
 rsync
 seahorse
 slurp

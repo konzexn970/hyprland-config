@@ -188,6 +188,22 @@ hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "
 --     border_size = 0,
 --     rounding    = 0,
 -- })
+hl.window_rule({
+    name   = "thunar-progress",
+    match  = { class = "^(thunar|Thunar)$", title = "^File Operation Progress$" },
+    float  = true,
+    size   = "500 130",
+    center = true,
+})
+
+hl.window_rule({
+    name   = "qalculate",
+    match  = { class = "^qalculate-gtk$" },
+    float  = true,
+    size   = "380 640",
+    center = true,
+})
+
 
 -- See https://wiki.hypr.land/Configuring/Layouts/Dwindle-Layout/ for more
 hl.config({
@@ -281,6 +297,7 @@ hl.bind(mainMod .. " + B",      hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd(ipc .. "settings-toggle"))
 hl.bind(mainMod .. " + SHIFT + N", hl.dsp.exec_cmd(ipc .. "panel-toggle control-center"))
 hl.bind("ALT + Tab",               hl.dsp.exec_cmd(ipc .. "window-switcher hold"))
+hl.bind(mainMod .. " + w", hl.dsp.exec_cmd(ipc .. "plugin yngwe/wallpaperCarousel:service all toggle"))
 
 -- Window / session
 hl.bind(mainMod .. " + Q",         hl.dsp.window.close())
