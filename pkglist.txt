@@ -49,8 +49,10 @@ pacman-contrib
 pipewire
 pipewire-pulse
 playerctl
+power-profiles-daemon
 qalculate-gtk
 qbittorrent
+qt6ct
 quickshell
 rsync
 seahorse
