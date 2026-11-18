@@ -6,7 +6,7 @@ Managed with [GNU Stow](https://www.gnu.org/software/stow/).
 ## Restore
 
     sudo pacman -S stow git
-    git clone git@github.com:konzexn970/hyprland-config.git ~/dotfiles
+    git clone https://github.com/konzexn970/hyprland-config ~/hyprland-config
     cd ~/dotfiles
     stow hypr fish foot fastfetch noctalia gtk-3.0 gtk-4.0 qt5ct qt6ct nwg-look btop cava mpv Thunar starship
     sudo pacman -S --needed - < pkglist.txt
