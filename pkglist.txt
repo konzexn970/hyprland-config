@@ -31,7 +31,6 @@ hyprland
 imagemagick
 jasper
 kvantum
-lazygit
 libreoffice-fresh
 linux-firmware
 linux-lts
@@ -40,7 +39,6 @@ linux-zen-headers
 luarocks
 mpv
 nano
-neovim
 networkmanager
 noctalia
 noctalia-greeter
@@ -72,7 +70,6 @@ terminus-font
 thunar
 thunar-archive-plugin
 thunar-volman
-tree-sitter-cli
 ttf-jetbrains-mono-nerd
 tumbler
 unzip
